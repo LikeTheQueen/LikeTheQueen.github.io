@@ -698,7 +698,51 @@ hr {
     padding-top: 16px;
     
 }
+.colors_block {
+   display: flex;
+   justify-content: space-between;
+   
+}
+.color_block {
+   height: auto;
+   border: 1pt solid black;
+   
+}
 
+.colors {
+  margin: 20px;
+}
+.color1 {
+  background: #002626;
+  color: #FFF;
+  padding: 20px;
+}
+.color2 {
+  background: #0E4749;
+  color: #FFF;
+  padding: 20px;
+}
+.color3 {
+  background: #95C623;
+  color: black;
+  padding: 20px;
+}
+.color4 {
+  background: #F61067;
+  color: #FFF;
+  padding: 20px;
+}
+.color5 {
+  background: #9AA0A8;
+  color: black;
+  padding: 20px;
+}
+.gradient{
+  background: linear-gradient(to right, #0E4749, #F61067);
+  color: #FFF;
+  padding: 20px;
+  margin: 20px;
+}
 
 @media only screen and (max-width: 500px) {
 
