@@ -698,18 +698,19 @@ hr {
     padding-top: 16px;
     
 }
-.colors_block {
+.colors_block, .fonts_block {
    display: flex;
    justify-content: space-between;
    
 }
-.color_block {
+.color_block, .font_block {
    height: auto;
    border: 1pt solid white;
+   margin-bottom: 10px;
    
 }
 
-.colors {
+.colors, .fonts {
   margin: 20px;
 }
 .color1 {
@@ -742,6 +743,36 @@ hr {
   color: #FFF;
   padding: 20px;
   margin: 20px;
+}
+.block_header {
+  padding-left: 20px;
+}
+.fonts block{
+  font-size: 25px;
+  text-decoration: underline;
+  display: flex;
+  flex-flow: column wrap;
+}
+.font1 {
+  font-family: "Montserrat", sans-serif;
+}
+.font2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.reg {
+  font-style: normal;
+}
+.bold {
+  font-weight: bold
+}
+.italic {
+  font-style: italic;
+}
+.lowerUp {
+font-variant-caps: small-caps;
+}
+.obique {
+  font-style: oblique;
 }
 
 @media only screen and (max-width: 500px) {
