@@ -759,6 +759,11 @@ hr {
 .font2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.font3 {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ }
 .reg {
   font-style: normal;
 }
