@@ -27,6 +27,7 @@
 
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -699,86 +700,101 @@ hr {
     
 }
 .colors_block, .fonts_block {
-   display: flex;
-   justify-content: space-between;
-   
-}
-.color_block, .font_block {
-   height: auto;
-   border: 1pt solid white;
-   margin-bottom: 10px;
-   
-}
-
-.colors, .fonts {
-  margin: 20px;
-}
-.color1 {
-  background: #002626;
-  color: #FFF;
-  padding: 20px;
-}
-.color2 {
-  background: #0E4749;
-  color: #FFF;
-  padding: 20px;
-}
-.color3 {
-  background: #95C623;
-  color: black;
-  padding: 20px;
-}
-.color4 {
-  background: #F61067;
-  color: #FFF;
-  padding: 20px;
-}
-.color5 {
-  background: #9AA0A8;
-  color: black;
-  padding: 20px;
-}
-.gradient{
-  background: linear-gradient(to right, #0E4749, #F61067);
-  color: #FFF;
-  padding: 20px;
-  margin: 20px;
-}
-.block_header {
-  padding-left: 20px;
-}
-.fonts block{
-  font-size: 25px;
-  text-decoration: underline;
-  display: flex;
-  flex-flow: column wrap;
-}
-.font1 {
-  font-family: "Montserrat", sans-serif;
-}
-.font2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.font3 {
-    font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    
  }
-.reg {
-  font-style: normal;
-}
-.bold {
-  font-weight: bold
-}
-.italic {
-  font-style: italic;
-}
-.lowerUp {
-font-variant-caps: small-caps;
-}
-.obique {
-  font-style: oblique;
-}
+ .color_block, .font_block {
+    height: auto;
+    border: 1pt solid white;
+    margin-bottom: 10px;
+    
+ }
+ 
+ .colors, .fonts {
+   margin: 20px;
+ }
+ .color1 {
+   background: #002626;
+   color: #FFF;
+   padding: 20px;
+ }
+ .color2 {
+   background: #0E4749;
+   color: #FFF;
+   padding: 20px;
+ }
+ .color3 {
+   background: #95C623;
+   color: black;
+   padding: 20px;
+ }
+ .color4 {
+   background: #F61067;
+   color: #FFF;
+   padding: 20px;
+ }
+ .color5 {
+   background: #9AA0A8;
+   color: black;
+   padding: 20px;
+ }
+ .gradient{
+   background: linear-gradient(to right, #0E4749, #F61067);
+   color: #FFF;
+   padding: 20px;
+   margin: 20px;
+ }
+ .block_header, .title  {
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 25px;
+ }
+ .fonts block{
+   font-size: 25px;
+   text-decoration: underline;
+   display: flex;
+   flex-flow: column wrap;
+   margin-bottom: 10px;
+ }
+ .font0 p, .font1 p, .font2 p, .font3 p, .font4 p, .font5 p, .font6 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+ .font1 {
+   font-family: "Montserrat", cursive;
+ }
+ .font2 {
+   font-family: "Georgia", cursive;
+ }
+ .font3 {
+    font-family: "Poppins", cursive;
+ }
+ .font4 {
+    font-family: "Source Sans 3", cursive;
+ }
+ .font5 {
+    font-family: "Karla", cursive;
+ }
+ .font6 {
+    font-family: "Inconsolara", cursive;
+ }
+ .reg {
+   font-style: normal;
+ }
+ .bold {
+   font-weight: bold
+ }
+ .italic {
+   font-style: italic;
+ }
+ .lowerUp {
+ font-variant-caps: small-caps;
+ }
+ .obique {
+   font-style: oblique;
+ }
 
 @media only screen and (max-width: 500px) {
 
